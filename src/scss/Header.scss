@@ -1,0 +1,65 @@
+@import './variables';
+
+
+.Header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12.8rem;
+    background-color: $color-A2;
+    position: relative;
+}
+.Header__logo-container{
+    margin-left: 7.2rem;
+    &__logo{
+        transition: all 0.1s ease-out;
+        cursor: pointer;
+        max-width: 8rem;
+        height: auto;
+        &:hover{
+            transform:  scale(1.1);
+        }
+    }
+}
+
+.Header__nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $font-h5;
+    width: 48.3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+    margin-right: 7.2rem;
+    
+    li{
+        list-style: none;
+        cursor: pointer;
+        a{
+            color: $color-master1;
+        }
+
+    }
+    &__myShop{
+        padding:1rem ;
+        transition: all 0.1s ease-out;
+        &:hover{
+            border: 0.4rem solid $color-master1;
+        }
+    }
+    &__me{
+        transition: all 0.1s ease-out;
+        &:hover{
+            border-bottom: 0.4rem solid $color-master1;
+        }
+    }
+
+}
+.Header__contact{
+    font-size: $font-h7;
+    position: absolute;
+    bottom: -5.6rem;
+    right: 7.2rem;
+    z-index: 1000;
+}

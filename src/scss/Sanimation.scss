@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./utilities";
+
+.S-anim__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    &:hover .S-anim__img{
+        transform: scale(1.1);
+    }
+    &:hover .S-anim__txt{
+        transform: translateY(50%);
+        opacity: 1;
+    }
+
+}
+
+.S-anim__img{
+    max-width: auto ;
+    max-height: 8.8rem;
+    transition: all 0.2s ease-out;
+    
+}
+.S-anim__txt{
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    font-size: $font-h5;
+
+    
+}

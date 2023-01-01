@@ -1,0 +1,23 @@
+*{
+    box-sizing: inherit;
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html{
+   font-size: 62.5%;
+
+}
+
+body{
+   box-sizing: border-box;
+   font-family: 'asap','sans serif';
+   overflow-x:hidden ;
+}
+@media (max-width: 800px) {
+   html{
+      font-size: 31.25%;
+   }
+}

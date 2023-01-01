@@ -1,0 +1,29 @@
+@import "./variables";
+@import "./utilities";
+
+.Social__container {
+  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100vw;
+}
+
+.Social__heading {
+  margin-top: 6.4rem;
+  font-size: $font-h3;
+  color: $color-b75;
+}
+
+.Sanimation__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4.8rem;
+  justify-content: center;
+  gap: 7.2rem;
+  max-width: 129.9rem;
+  height: auto;
+}

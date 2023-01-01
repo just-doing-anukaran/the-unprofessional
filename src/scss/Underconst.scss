@@ -1,0 +1,19 @@
+@import './variables';
+@import './utilities';
+
+.UC__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 129.6rem;
+    margin: 6.4rem auto 0 auto;
+    &__img{
+        max-width: 40rem;
+        height: auto;
+
+    }
+    & p{
+        font-size: $font-h1;
+        text-align: center;
+    }
+}

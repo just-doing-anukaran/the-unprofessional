@@ -1,0 +1,33 @@
+@import "./variables";
+@import "./utilities";
+
+.Ahero__container {
+  background-image: url(../images/about.png);
+  background-size: cover;
+  background-position: right;
+  height: 64.2rem;
+  width: auto;
+  max-width: 95vw;
+  margin: 12.8rem auto 0 auto;
+  position: relative;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.Ahero__text {
+  font-size: $font-h1;
+  color: white;
+  max-width: 61rem;
+  width: auto;
+  position: absolute;
+  top: 14.5rem;
+  left: 12.5vw;
+  z-index: 2;
+  text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.75);
+}
+
+

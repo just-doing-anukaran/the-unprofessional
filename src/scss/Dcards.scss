@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./utilities";
+
+.Dcards__container{
+    display: flex;
+    max-width: 129.6rem;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 12.8rem;
+    margin: 3.2rem auto 0 auto;
+}
+.hidden{
+    display: none;
+}
