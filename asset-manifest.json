@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-unprofessional/static/css/main.18e96ddc.css",
-    "main.js": "/the-unprofessional/static/js/main.fb7a1716.js",
+    "main.js": "/the-unprofessional/static/js/main.d1175bb1.js",
     "static/media/a1.mp4": "/the-unprofessional/static/media/a1.55a3a8c56fa7b5c210f2.mp4",
     "static/media/g2.mp4": "/the-unprofessional/static/media/g2.6a216b181d6f75ee7f14.mp4",
     "static/media/r1.mp4": "/the-unprofessional/static/media/r1.2a65f5c67fd98a0ef15b.mp4",
@@ -166,10 +166,10 @@
     "static/media/larrow.svg": "/the-unprofessional/static/media/larrow.e3acf5d9d35bb1b8f2b492340e52344f.svg",
     "static/media/rarrow.svg": "/the-unprofessional/static/media/rarrow.16faf00374a1e60eb3e5ab6f9047c8ad.svg",
     "main.18e96ddc.css.map": "/the-unprofessional/static/css/main.18e96ddc.css.map",
-    "main.fb7a1716.js.map": "/the-unprofessional/static/js/main.fb7a1716.js.map"
+    "main.d1175bb1.js.map": "/the-unprofessional/static/js/main.d1175bb1.js.map"
   },
   "entrypoints": [
     "static/css/main.18e96ddc.css",
-    "static/js/main.fb7a1716.js"
+    "static/js/main.d1175bb1.js"
   ]
 }
